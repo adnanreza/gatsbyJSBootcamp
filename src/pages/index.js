@@ -1,5 +1,12 @@
 import React from "react"
 
-export default function Home() {
-  return <div>The Great Gatsby Bootcamp</div>
+const IndexPage = () => {
+  return (
+    <div>
+      <h1>Hello</h1>
+      <h2>I'm Adnan, a web development instructor, living in Vancouver, BC.</h2>
+    </div>
+  )
 }
+
+export default IndexPage
